@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jewellery Website</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Gotu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.16.0/css/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar fixed-top navbar-default navbar-expand-md navbar-light bg-light scrolling-navbar">
+        <a class="navbar-brand ml-3" href="#">Diamond Society</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-block"
+            aria-controls="navbar-block" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse flex-grow-1 text-right" id="navbar-block">
+            <ul class="navbar-nav md-pills pills-grey lighten-2 ml-auto flex-nowrap">
+                <li class="nav-item">
+                    <a class="nav-link active waves-effect" data-toggle="tab" href="#front-page" role="tab">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link waves-effect" data-toggle="tab" href="#shop" role="tab">Shop</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link waves-effect" data-toggle="tab" href="#info1" role="tab">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link waves-effect" data-toggle="tab" href="#contact" role="tab">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link waves-effect" data-toggle="tab" href="#contact" role="tab">Login/Register</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="front-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <div id="front-page-left">
+                        <img src="images/diamond1.png" alt="diamond ring">
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="front-page-right">
+                        <h1>Divine, Glorious, Gorgeous</h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad dolorum iste odio consectetur,
+                            nisi debitis, delectus nam autem harum, ea est? Recusandae cupiditate possimus optio!</p>
+                    </div>
+                    <br>
+                    <button type="button" class="btn btn-light btn-default btn-lg showcase-btn">Read more</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonial">
+        <div class="container">
+            <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus tenetur blanditiis vero minima
+                perspiciatis accusantium. Nihil ipsum ipsam ea consequuntur velit labore iure et, temporibus eos magnam
+                fuga cumque esse itaque praesentium enim adipisci, id maiores? Nisi
+                inventore rerum illum accusantium atque sint culpa dolore!"</p>
+            <p class="customer">- Jane Doe</p>
+        </div>
+    </section>
+
+    <section id="shop">
+        <div class="container">
+            <h1 class="text-center mb-4">Our products</h1>
+            <div class="card-deck mb-5">
+                <div class="card text-white">
+                    <img class="card-img" src="images/diamonds22.png" alt="Card image">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Adipisci</h5>
+                        <button type="button" class="btn btn-light btn-md waves-effect">Shop
+                            now</button>
+                    </div>
+                </div>
+
+                <div class="card text-white">
+                    <img class="card-img" src="images/product22.png" alt="Card image">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Itaque</h5>
+                        <button type="button" class="btn btn-light btn-md waves-effect">Shop
+                            now</button>
+                    </div>
+                </div>
+
+                <div class="card text-white">
+                    <img class="card-img" src="images/product33.png" alt="Card image">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Labore</h5>
+                        <button type="button" class="btn btn-light btn-md waves-effect">Shop
+                            now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="products mt-3">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="arrivals-tab" data-toggle="tab" href="#arrivals" role="tab"
+                            aria-controls="arrivals" aria-selected="true">New Arrivals</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="popular-tab" data-toggle="tab" href="#popular" role="tab"
+                            aria-controls="popular" aria-selected="false">Popular</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="best-sold-tab" data-toggle="tab" href="#best-sold" role="tab"
+                            aria-controls="best-sold" aria-selected="false">Best Sellers</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="arrivals" role="tabpanel" aria-labelledby="arrivals-tab">
+                        <!-- Card deck -->
+                        <div class="card-deck">
+
+                            <!-- Card -->
+                            <div class="card mb-4">
+
+                                <!--Card image-->
+                                <div class="view">
+                                    <img class="card-img-top" src="images/product1.png" alt="Card image cap">
+                                </div>
+
+                                <!--Card content-->
+                                <div class="card-body">
+
+                                    <!--Title-->
+                                    <h4 class="card-title">Amet consect</h4>
+                                    <!--Text-->
+                                    <p class="card-text">€:</p>
+                                    <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                                    <button type="button" class="btn blue-gradient btn-md">Add to chart</button>
+
+                                </div>
+
+                            </div>
+                            <!-- Card -->
+
+                            <!-- Card -->
+                            <div class="card mb-4">
+
+                                <!--Card image-->
+                                <div class="view">
+                                    <img class="card-img-top" src="images/product2.png" alt="Card image cap">
+                                </div>
+
+                                <!--Card content-->
+                                <div class="card-body">
+
+                                    <!--Title-->
+                                    <h4 class="card-title">Atque eius</h4>
+                                    <!--Text-->
+                                    <p class="card-text">€:</p>
+                                    <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                                    <button type="button" class="btn blue-gradient btn-md">Add to chart</button>
+
+                                </div>
+
+                            </div>
+                            <!-- Card -->
+
+                            <!-- Card -->
+                            <div class="card mb-4">
+
+                                <!--Card image-->
+                                <div class="view">
+                                    <img class="card-img-top" src="images/product3.png" alt="Card image cap">
+                                </div>
+
+                                <!--Card content-->
+                                <div class="card-body">
+
+                                    <!--Title-->
+                                    <h4 class="card-title">Odio commodi</h4>
+                                    <!--Text-->
+                                    <p class="card-text">€:</p>
+                                    <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                                    <button type="button" class="btn blue-gradient btn-md">Add to chart</button>
+
+                                </div>
+                            </div>
+                            <!-- Card -->
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="popular" role="tabpanel" aria-labelledby="popular-tab">
+                        <!-- Card deck -->
+                        <div class="card-deck">
+
+                            <!-- Card -->
+                            <div class="card mb-4">
+
+                                <!--Card image-->
+                                <div class="view">
+                                    <img class="card-img-top" src="images/product4.png" alt="Card image cap">
+                                </div>
+
+                                <!--Card content-->
+                                <div class="card-body">
+
+                                    <!--Title-->
+                                    <h4 class="card-title">Elit Pariat</h4>
+                                    <!--Text-->
+                                    <p class="card-text">€:</p>
+                                    <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                                    <button type="button" class="btn blue-gradient btn-md">Add to chart</button>
+
+                                </div>
+                            </div>
+                            <!-- Card -->
+
+                            <!-- Card -->
+                            <div class="card mb-4">
+
+                                <!--Card image-->
+                                <div class="view">
+                                    <img class="card-img-top" src="images/product5.png" alt="Card image cap">
+                                </div>
+
+                                <!--Card content-->
+                                <div class="card-body">
+
+                                    <!--Title-->
+                                    <h4 class="card-title">Dolore Est Opt</h4>
+                                    <!--Text-->
+                                    <p class="card-text">€:</p>
+                                    <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                                    <button type="button" class="btn blue-gradient btn-md">Add to chart</button>
+
+                                </div>
+
+                            </div>
+                            <!-- Card -->
+
+                            <!-- Card -->
+                            <div class="card mb-4">
+
+                                <!--Card image-->
+                                <div class="view">
+                                    <img class="card-img-top" src="images/product3.png" alt="Card image cap">
+                                </div>
+
+                                <!--Card content-->
+                                <div class="card-body">
+
+                                    <!--Title-->
+                                    <h4 class="card-title">Dicta vitae</h4>
+                                    <!--Text-->
+                                    <p class="card-text">€:</p>
+                                    <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                                    <button type="button" class="btn blue-gradient btn-md">Add to chart</button>
+
+                                </div>
+
+                            </div>
+                            <!-- Card -->
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="best-sold" role="tabpanel" aria-labelledby="best-sold-tab">
+                        <!-- Card deck -->
+                        <div class="card-deck">
+
+                            <!-- Card -->
+                            <div class="card mb-4">
+
+                                <!--Card image-->
+                                <div class="view">
+                                    <img class="card-img-top" src="images/product3.png" alt="Card image cap">
+                                </div>
+
+                                <!--Card content-->
+                                <div class="card-body">
+
+                                    <!--Title-->
+                                    <h4 class="card-title">Minus itaque</h4>
+                                    <!--Text-->
+                                    <p class="card-text">€:</p>
+                                    <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                                    <button type="button" class="btn blue-gradient btn-md">Add to chart</button>
+
+                                </div>
+
+                            </div>
+                            <!-- Card -->
+
+                            <!-- Card -->
+                            <div class="card mb-4">
+
+                                <!--Card image-->
+                                <div class="view">
+                                    <img class="card-img-top" src="images/product1.png" alt="Card image cap">
+                                </div>
+
+                                <!--Card content-->
+                                <div class="card-body">
+
+                                    <!--Title-->
+                                    <h4 class="card-title">Ipsum unde</h4>
+                                    <!--Text-->
+                                    <p class="card-text">€:</p>
+                                    <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                                    <button type="button" class="btn blue-gradient btn-md">Add to chart</button>
+
+                                </div>
+
+                            </div>
+                            <!-- Card -->
+
+                            <!-- Card -->
+                            <div class="card mb-4">
+
+                                <!--Card image-->
+                                <div class="view">
+                                    <img class="card-img-top" src="images/product2.png" alt="Card image cap">
+                                </div>
+
+                                <!--Card content-->
+                                <div class="card-body">
+
+                                    <!--Title-->
+                                    <h4 class="card-title">Nisi vero modi</h4>
+                                    <!--Text-->
+                                    <p class="card-text">€:</p>
+                                    <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                                    <button type="button" class="btn blue-gradient btn-md">Add to chart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="info1">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="info-left">
+                        <img src="images/stainless2.jpg" alt="stainless">
+
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="info-right">
+                        <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+                        <p>Consectetur adipisicing elit. Facilis vel reiciendis maxime
+                            excepturi dolores repudiandae, iure illo dolorum nam minus?</p>
+                        <button type="button" class="btn btn-light btn-default btn-md waves-effect">Discover
+                            more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section id="info2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="info-left">
+                        <h3>Additional Information</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam, repellat. Autem eum fuga
+                            officia nostrum temporibus dolor, aut hic natus? Lorem, ipsum dolor sit amet consectetur
+                            adipisicing elit. Facilis vel reiciendis maxime
+                            excepturi dolores repudiandae, iure illo dolorum nam minus?</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="info-right">
+                        <h3>Additional Information</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ab autem praesentium ea,
+                            mollitia eum eos, laborum molestias necessitatibus, accusamus quidem quod. Ullam,
+                            praesentium non. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis vel
+                            reiciendis maxime
+                            excepturi dolores repudiandae, iure illo dolorum nam minus?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="counter-panel">
+        <div class="container-panel">
+            <div class="row">
+                <div class="col panel-item">
+                    <i class="fas fa-ring fa-4x"></i>
+                    <div class="counter" data-target="4000">0</div>
+                    <h3>Unexpected Surprises</h3>
+                </div>
+
+                <div class="col panel-item">
+                    <i class="fas fa-gifts fa-4x"></i>
+                    <div class="counter" data-target="3000">0</div>
+                    <h3>Amazing Gifts</h3>
+                </div>
+
+                <div class="col panel-item">
+                    <i class="fas fa-hand-holding-heart fa-4x"></i>
+                    <div class="counter" data-target="5000">0</div>
+                    <h3>Happy Customers</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <!-- Default form contact -->
+                    <form class="text-center contact-form p-3" id="form">
+
+                        <h3 class="h4 mt-4 mb-4">Contact us</h3>
+
+                        <!-- Name -->
+                        <input type="text" id="name" class="form-control mt-4" placeholder="Enter Your Name" required>
+
+                        <!-- Email -->
+                        <input type="email" id="email" class="form-control mt-4" placeholder="Enter Your E-mail"
+                            required>
+
+                        <!-- Message -->
+                        <input type="text" id="message" class="form-control mt-4 mb-5"
+                            placeholder="Write Your Message..." maxlength="255" required>
+
+                        <!-- Send button -->
+                        <button class="btn btn-light btn-lg grey lighten-2 form-submit" id="submit-btn" type="submit"
+                            data-toggle="modal" data-target="#modal-example" disabled>Submit</button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="modal-example" tabindex="-1" role="dialog"
+                            aria-labelledby="modal-label" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="modal-label">Thank you!</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Your message has been succesfully sent!
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary blue-gradient"
+                                            data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <!-- Default form contact -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="social-icons mb-3">
+            <h3 class="text-center">Follow us on social media!</h3>
+            <div>
+                <!--Facebook-->
+                <a class="btn-floating btn-lg btn-fb" type="button" role="button"><i
+                        class="fab fa-facebook-f fa-2x"></i></a>
+                <!--Instagram-->
+                <a class="btn-floating btn-lg btn-ins" type="button" role="button"><i
+                        class="fab fa-instagram fa-2x"></i></a>
+                <!--Pinterest-->
+                <a class="btn-floating btn-lg btn-pin" type="button" role="button"><i
+                        class="fab fa-pinterest fa-2x"></i></a>
+                <!--Youtube-->
+                <a class="btn-floating btn-lg btn-yt" type="button" role="button"><i
+                        class="fab fa-youtube fa-2x"></i></a>
+            </div>
+        </div>
+        <p class="text-center">Copyright &copy; 2020 Diamond Society</p>
+    </footer>
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.16.0/js/mdb.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
