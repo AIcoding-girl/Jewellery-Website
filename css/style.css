@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .card-deck .card {
-    width: 18rem;
+    width: 100%;
     background-color: #3E4551;
 }
 
